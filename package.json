@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "bitebuddy",
+  "version": "1.0.0",
+  "description": "BiteBuddy is a Web Software Application that provides Recipes based on Users input of Ingredients and Preferences like Veg or Non-Veg,Allergies,etc.It takes Text as well as Voice as Users Input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Dev",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "nodemon": "^3.1.10",
+    "ollama": "^0.6.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
